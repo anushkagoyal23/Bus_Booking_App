@@ -1,0 +1,77 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, hsl(86, 84%, 55%), #c2fa98);
+    /* background-image: url("https://i.pinimg.com/originals/b9/ac/4f/b9ac4fcbfe739a99fc98d3fc90369525.png"); */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contain {
+    background-color: rgb(233, 224, 224);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    height: 470px;
+}
+
+.container {
+    background: rgb(233, 224, 224);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    margin: 10px;
+    height: 470px;
+}
+
+li {
+    text-align: left;
+    /* margin-left: 90px; */
+}
+
+.Motive {
+    text-align: left;
+}
+
+
+h1 {
+    color: #333;
+    margin-bottom: 600px;
+    position: absolute;
+    /* margin-left: 20px; */
+}
+
+.bus-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #0b0b0b;
+    margin-bottom: 20px;
+}
+
+button {
+    background: #84f514;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #f1f3f4;
+}
